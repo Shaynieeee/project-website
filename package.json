@@ -1,0 +1,41 @@
+{
+  "name": "node-rest-api-scaffold",
+  "version": "0.1.0",
+  "description": "This project is an initial NodeJS Rest API scaffold for developers",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node www/server",
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "nodejs",
+    "rest",
+    "restfull",
+    "api",
+    "jwt",
+    "authentication"
+  ],
+  "author": "Luis Filipe <lionphilips@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@sendgrid/mail": "^8.1.3",
+    "body-parser": "^1.20.2",
+    "chai": "^4.1.2",
+    "debug": "^3.1.0",
+    "express": "^4.19.2",
+    "guid": "0.0.12",
+    "http": "0.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "md5": "^2.2.1",
+    "mocha": "^5.0.1",
+    "mongoose": "^5.0.6",
+    "should": "^13.2.1",
+    "mysql2": "^3.4.5",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "apidoc": "^1.2.0",
+    "nodemon": "^3.1.4",
+    "request": "^2.83.0"
+  }
+}
