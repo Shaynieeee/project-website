@@ -1,7 +1,0 @@
-const response = () => {
-    return {
-        payload: {
-            
-        }
-    }
-}

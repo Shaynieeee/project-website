@@ -1,41 +1,37 @@
 {
-  "name": "node-rest-api-scaffold",
+  "name": "storefront",
   "version": "0.1.0",
-  "description": "This project is an initial NodeJS Rest API scaffold for developers",
-  "main": "src/app.js",
-  "scripts": {
-    "start": "node www/server",
-    "test": "node_modules/mocha/bin/mocha"
-  },
-  "keywords": [
-    "nodejs",
-    "rest",
-    "restfull",
-    "api",
-    "jwt",
-    "authentication"
-  ],
-  "author": "Luis Filipe <lionphilips@gmail.com>",
-  "license": "Apache-2.0",
+  "private": true,
   "dependencies": {
-    "@sendgrid/mail": "^8.1.3",
-    "body-parser": "^1.20.2",
-    "chai": "^4.1.2",
-    "debug": "^3.1.0",
-    "express": "^4.19.2",
-    "guid": "0.0.12",
-    "http": "0.0.0",
-    "jsonwebtoken": "^9.0.2",
-    "md5": "^2.2.1",
-    "mocha": "^5.0.1",
-    "mongoose": "^5.0.6",
-    "should": "^13.2.1",
-    "mysql2": "^3.4.5",
-    "nodemon": "^3.1.4"
+    "bootstrap": "^4.3.1",
+    "email-validator": "^2.0.4",
+    "formik": "^1.5.8",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.2",
+    "styled-components": "^4.3.2",
+    "yup": "^0.27.0"
   },
-  "devDependencies": {
-    "apidoc": "^1.2.0",
-    "nodemon": "^3.1.4",
-    "request": "^2.83.0"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
